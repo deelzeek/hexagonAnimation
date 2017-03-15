@@ -28,13 +28,18 @@ class StartViewController: UIViewController, UIImagePickerControllerDelegate, UI
         chooseImageButton.layer.cornerRadius = 7
         imagePicker.delegate = self
     }
-
+    /**
+     *chooseImageAction* is a button to trigger image picker
+     - Parameter sender: it can be Any object
+     */
     @IBAction func chooseImageAction(_ sender: Any) {
         imagePicker.allowsEditing = false
         imagePicker.sourceType = .photoLibrary
         
         present(imagePicker, animated: true, completion: nil)
     }
+    
+    /// MARK! - UIImagePickerControllerDelegate methods
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
@@ -51,15 +56,25 @@ class StartViewController: UIViewController, UIImagePickerControllerDelegate, UI
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
          dismiss(animated: true, completion: nil)
     }
-  
+    /**
+     *octagonItAction* triggers user to the AnimationVC
+     - Parameter sender: it can be Any object
+     */
     @IBAction func octagonItAction(_ sender: Any) {
         performSegue(withIdentifier: "octagonifySegue" , sender: nil)
     }
-    
+    /**
+     *sliderValueChanges* is needed to update current value and show it to the user
+     - Parameter sender: it can be Any object
+     */
     @IBAction func sliderValueChanges(_ sender: UISlider) {
+        //We get currect value of the slider
         let output = timeSlider.value
+        //We make steps with interval of 5
         let newValue = 5 * floor((output/5)+0.5)
+        //We assign new value to the slider
         timeSlider.value = newValue
+        // Update text of current state of the slider
         animationTimeLabel.text = "Animation lasts: \(timeSlider.value) sec"
     }
     

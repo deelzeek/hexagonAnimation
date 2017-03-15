@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "e915feb800f2bb10bad2e20fe422f5be"
+build_time: [542936376, 365699000]
+inputs:
+  "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift": [9223372036854775807, 0]
+  "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AnimationViewController.swift": [9223372036854775807, 0]
+  "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift": [9223372036854775807, 0]
+  "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift": [9223372036854775807, 0]

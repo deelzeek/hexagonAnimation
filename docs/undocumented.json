@@ -1,0 +1,271 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AnimationViewController.swift",
+      "line": 15,
+      "symbol": "AnimationViewController.octagon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AnimationViewController.swift",
+      "line": 16,
+      "symbol": "AnimationViewController.pickedImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AnimationViewController.swift",
+      "line": 17,
+      "symbol": "AnimationViewController.animTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AnimationViewController.swift",
+      "line": 20,
+      "symbol": "AnimationViewController.animationView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AnimationViewController.swift",
+      "line": 23,
+      "symbol": "AnimationViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 27,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 32,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 36,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 15,
+      "symbol": "CGFloat.radians()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 47,
+      "symbol": "Octagonic.octagonView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 48,
+      "symbol": "Octagonic.viewLayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 49,
+      "symbol": "Octagonic.originX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 50,
+      "symbol": "Octagonic.originY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 51,
+      "symbol": "Octagonic.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 52,
+      "symbol": "Octagonic.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 53,
+      "symbol": "Octagonic.img",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 54,
+      "symbol": "Octagonic.realScreen",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 55,
+      "symbol": "Octagonic.midX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 56,
+      "symbol": "Octagonic.midY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 59,
+      "symbol": "Octagonic.init(view:image:color:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/Octagonic.swift",
+      "line": 87,
+      "symbol": "Octagonic.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 11,
+      "symbol": "StartViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 13,
+      "symbol": "StartViewController.timeSlider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 14,
+      "symbol": "StartViewController.animationTimeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 15,
+      "symbol": "StartViewController.chooseImageButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 16,
+      "symbol": "StartViewController.octagonitButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 17,
+      "symbol": "StartViewController.chosenImageStatus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 19,
+      "symbol": "StartViewController.imagePicker",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 21,
+      "symbol": "StartViewController.pickedImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 22,
+      "symbol": "StartViewController.animationTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 24,
+      "symbol": "StartViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 56,
+      "symbol": "StartViewController.imagePickerControllerDidCancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/deel/Documents/Xcode/Octagonic/Octagonic/StartViewController.swift",
+      "line": 81,
+      "symbol": "StartViewController.prepare(for:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/deel/Documents/Xcode/Octagonic"
+}

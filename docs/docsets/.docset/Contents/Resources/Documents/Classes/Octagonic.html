@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Octagonic Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/Octagonic" class="dashAnchor"></a>
+    <a title="Octagonic Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Octagonic Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AnimationViewController.html">AnimationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Octagonic.html">Octagonic</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartViewController.html">StartViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Octagonic</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                </div>
+              </div>
+            <p><em>Octagonic</em> is an object to create animation of octagon over UIImageView</p>
+
+<p><a href='#usage-example' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h3 id='usage-example'>Usage Example:</h3>
+<pre class="highlight plaintext"><code>   var octagon: Octagonic?
+   var pickedImage: UIImage?
+   var animationView : UIView?
+   ...
+   override func viewDidLoad() {
+       super.viewDidLoad()
+       ...
+       let img = UIImageView(image: pickedImage ?? UIImage(named: <q>someImage.jpg</q>))
+       octagon = Octagonic(view: self.animationView, image: img, color: UIColor.white, offset: 0)
+       octagon?.animateOctagon(duration: animTime ?? 1)
+   }
+}</p>
+
+<p></code></pre>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>requests(_:completion)</code></p>
+
+<p></div>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    UIImageView should not be nil. Preferably, create a separate not-nil UIView.</p>
+
+<p></div></p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic11octagonViewGSqCSo12CAShapeLayer_"></a>
+                    <a name="//apple_ref/swift/Property/octagonView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic11octagonViewGSqCSo12CAShapeLayer_">octagonView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic9viewLayerGSqCSo6UIView_"></a>
+                    <a name="//apple_ref/swift/Property/viewLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic9viewLayerGSqCSo6UIView_">viewLayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic7originXGSqV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/originX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic7originXGSqV12CoreGraphics7CGFloat_">originX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic7originYGSqV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/originY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic7originYGSqV12CoreGraphics7CGFloat_">originY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic5widthGSqV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/width" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic5widthGSqV12CoreGraphics7CGFloat_">width</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic6heightGSqV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/height" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic6heightGSqV12CoreGraphics7CGFloat_">height</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic3imgGSqCSo11UIImageView_"></a>
+                    <a name="//apple_ref/swift/Property/img" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic3imgGSqCSo11UIImageView_">img</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic10realScreenGSqVSC6CGRect_"></a>
+                    <a name="//apple_ref/swift/Property/realScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic10realScreenGSqVSC6CGRect_">realScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic4midXGSqV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/midX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic4midXGSqV12CoreGraphics7CGFloat_">midX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC9Octagonic9Octagonic4midYGSqV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/midY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC9Octagonic9Octagonic4midYGSqV12CoreGraphics7CGFloat_">midY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagoniccFT4viewCSo6UIView5imageCSo11UIImageView5colorCSo7UIColor6offsetV12CoreGraphics7CGFloat_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(view:image:color:offset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagoniccFT4viewCSo6UIView5imageCSo11UIImageView5colorCSo7UIColor6offsetV12CoreGraphics7CGFloat_S0_">init(view:image:color:offset:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagoniccFT5coderCSo7NSCoder_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagoniccFT5coderCSo7NSCoder_S0_">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kt">Octagonic</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814912reshapePhotoFT5imageCSo11UIImageView4viewCSo6UIView_T_"></a>
+                    <a name="//apple_ref/swift/Method/reshapePhoto(image:view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814912reshapePhotoFT5imageCSo11UIImageView4viewCSo6UIView_T_">reshapePhoto(image:view:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><em>reshapePhoto</em> function changes a UIImageView to fit into UIView the way we want it to do.
+- Parameter view: it should be not-nil UIView
+- Parameter image: it should be not-nil image</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">reshapePhoto</span><span class="p">(</span><span class="nv">image</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="p">,</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>it should be not-nil UIView</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>image</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>it should be not-nil image</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814911drawPolygonFT4viewCSo6UIView5colorCSo7UIColor6offsetV12CoreGraphics7CGFloat5sidesSi_T_"></a>
+                    <a name="//apple_ref/swift/Method/drawPolygon(view:color:offset:sides:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814911drawPolygonFT4viewCSo6UIView5colorCSo7UIColor6offsetV12CoreGraphics7CGFloat5sidesSi_T_">drawPolygon(view:color:offset:sides:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><em>drawPolygon</em> function creates a CALayer (octagon in our case) and uses that layer as a mask to UIView.
+- Parameter view: it should be not-nil UIView
+- Parameter color: any UIColor
+- Parameter offset: offset
+- Parameter sides: amount of sides. We can create not only octagon. Surprise!</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">drawPolygon</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">sides</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>it should be not-nil UIView</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>color</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>any UIColor</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>offset</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sides</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>amount of sides. We can create not only octagon. Surprise!</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814915drawOctoBordersFT4viewCSo6UIView_T_"></a>
+                    <a name="//apple_ref/swift/Method/drawOctoBorders(view:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814915drawOctoBordersFT4viewCSo6UIView_T_">drawOctoBorders(view:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><em>drawOctoBorders</em> function creates a CALayer (octagon in our case) and prepares it for animation.
+- Parameter view: it should be not-nil UIView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">drawOctoBorders</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>it should be not-nil UIView</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9Octagonic14animateOctagonFT8durationSd_T_"></a>
+                    <a name="//apple_ref/swift/Method/animateOctagon(duration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9Octagonic14animateOctagonFT8durationSd_T_">animateOctagon(duration:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><em>animateOctagon</em> function creates a CALayer (octagon in our case) and prepares it for animation.
+- Parameter duration: TimeInterval (Double) is a duration of animation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">animateOctagon</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>duration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>TimeInterval (Double) is a duration of animation.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814911polygonPathFT1xV12CoreGraphics7CGFloat1yS2_6radiusS2_5sidesSi6offsetS2__CSo6CGPath"></a>
+                    <a name="//apple_ref/swift/Method/polygonPath(x:y:radius:sides:offset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814911polygonPathFT1xV12CoreGraphics7CGFloat1yS2_6radiusS2_5sidesSi6offsetS2__CSo6CGPath">polygonPath(x:y:radius:sides:offset:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><em>polygonPath</em> function is where the <em>magic</em> happens. It is used to create path for 
+polygon creation.
+- Parameter x: x-axis value of the center.
+- Parameter y: y-axis value of the center.
+- Parameter radius: radius from the center.
+- Parameter sides: Amount of sides.
+- Parameter offset: Offset</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">polygonPath</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">radius</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">sides</span><span class="p">:</span><span class="kt">Int</span><span class="p">,</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGPath</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>x</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>x-axis value of the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>y</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>y-axis value of the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>radius</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>radius from the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sides</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Amount of sides.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Offset</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814912polygonLayerFT1xV12CoreGraphics7CGFloat1yS2_6radiusS2_5sidesSi5colorCSo7UIColor6offsetS2__CSo12CAShapeLayer"></a>
+                    <a name="//apple_ref/swift/Method/polygonLayer(x:y:radius:sides:color:offset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814912polygonLayerFT1xV12CoreGraphics7CGFloat1yS2_6radiusS2_5sidesSi5colorCSo7UIColor6offsetS2__CSo12CAShapeLayer">polygonLayer(x:y:radius:sides:color:offset:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><em>polygonLayer</em> function creates CAShapeLayer, in our case, for mask layer over UIImageView in UIView.
+- Parameter x: x-axis value of the center.
+- Parameter y: y-axis value of the center.
+- Parameter radius: radius from the center.
+- Parameter sides: Amount of sides.
+- Parameter color: UIColor value.
+- Parameter offset: Offset</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">polygonLayer</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">radius</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">sides</span><span class="p">:</span><span class="kt">Int</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span><span class="kt">UIColor</span><span class="p">,</span> <span class="nv">offset</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CAShapeLayer</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>x</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>x-axis value of the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>y</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>y-axis value of the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>radius</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>radius from the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sides</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Amount of sides.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>color</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIColor value.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Offset</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814917polygonPointArrayFT5sidesSi1xV12CoreGraphics7CGFloat1yS2_6radiusS2_6offsetS2__GSaVSC7CGPoint_"></a>
+                    <a name="//apple_ref/swift/Method/polygonPointArray(sides:x:y:radius:offset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC9Octagonic9OctagonicP33_BB1AEE676751A16BE295E00C1497814917polygonPointArrayFT5sidesSi1xV12CoreGraphics7CGFloat1yS2_6radiusS2_6offsetS2__GSaVSC7CGPoint_">polygonPointArray(sides:x:y:radius:offset:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><em>polygonPointArray</em> function returns an array of CFPoints, or polygons&rsquo; corners coordinates more precisely.
+- Parameter x: x-axis value of the center.
+- Parameter y: y-axis value of the center.
+- Parameter radius: radius from the center.
+- Parameter sides: Amount of sides.
+- Parameter offset: Offset</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">polygonPointArray</span><span class="p">(</span><span class="nv">sides</span><span class="p">:</span><span class="kt">Int</span><span class="p">,</span><span class="nv">x</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">y</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">radius</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">,</span><span class="nv">offset</span><span class="p">:</span><span class="kt">CGFloat</span><span class="p">)</span><span class="o">-&gt;</span><span class="p">[</span><span class="kt">CGPoint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>x</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>x-axis value of the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>y</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>y-axis value of the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>radius</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>radius from the center.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sides</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Amount of sides.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Offset</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-03-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
