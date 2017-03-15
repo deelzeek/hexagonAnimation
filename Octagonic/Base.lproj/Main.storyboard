@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4FA-z4-chy">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,30 +20,30 @@
                         <viewControllerLayoutGuide type="bottom" id="4jJ-nP-qR0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="01D-kW-ovz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="1" maxValue="60" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sop-Wg-nZa">
-                                <rect key="frame" x="14" y="318.5" width="347" height="31"/>
+                                <rect key="frame" x="14" y="269" width="292" height="31"/>
                                 <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="sliderValueChanges:" destination="4FA-z4-chy" eventType="valueChanged" id="Es2-VR-KxF"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animation time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYs-Gl-q1x">
-                                <rect key="frame" x="16" y="289.5" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animation lasts: 6 sec" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYs-Gl-q1x">
+                                <rect key="frame" x="16" y="240" width="288" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Octagonic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxI-Wt-Lyo">
-                                <rect key="frame" x="95.5" y="147" width="184" height="50"/>
+                                <rect key="frame" x="68" y="97.5" width="184" height="50"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U0V-pJ-LBp">
-                                <rect key="frame" x="16" y="356.5" width="343" height="66"/>
+                                <rect key="frame" x="16" y="307" width="288" height="66"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntd-hE-AmO">
                                         <rect key="frame" x="0.0" y="14" width="106" height="38"/>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No image chosen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5R-qk-n6B">
-                                        <rect key="frame" x="114" y="22" width="229" height="21"/>
+                                        <rect key="frame" x="114" y="22" width="174" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -77,7 +77,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKc-Xz-XyZ">
-                                <rect key="frame" x="127.5" y="587" width="120" height="60"/>
+                                <rect key="frame" x="100" y="488" width="120" height="60"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="Ecu-eA-CFw"/>
@@ -112,6 +112,7 @@
                     <connections>
                         <outlet property="animationTimeLabel" destination="fYs-Gl-q1x" id="wLd-gA-HoU"/>
                         <outlet property="chooseImageButton" destination="ntd-hE-AmO" id="d6t-xo-NH1"/>
+                        <outlet property="chosenImageStatus" destination="v5R-qk-n6B" id="1bZ-Bp-p0q"/>
                         <outlet property="octagonitButton" destination="eKc-Xz-XyZ" id="YAg-GJ-xoF"/>
                         <outlet property="timeSlider" destination="Sop-Wg-nZa" id="kpf-Nf-umv"/>
                         <segue destination="g7s-ti-llE" kind="presentation" identifier="octagonifySegue" id="Lnc-qo-idY"/>
@@ -124,17 +125,17 @@
         <!--Animation-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Octagonic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AnimationViewController" customModule="Octagonic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4q0-RK-0tM">
-                                <rect key="frame" x="0.0" y="64" width="375" height="333.5"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="284"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -161,12 +162,12 @@
                     <navigationItem key="navigationItem" title="Animation" id="64c-y2-lQq">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="tuB-Kj-D7r">
                             <connections>
-                                <action selector="backAction:" destination="BYZ-38-t0r" id="kgJ-RZ-lAn"/>
+                                <action selector="back:" destination="BYZ-38-t0r" id="ifd-vV-ZbQ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="animationView" destination="4q0-RK-0tM" id="qZx-7Q-pln"/>
+                        <outlet property="animationView" destination="4q0-RK-0tM" id="Xqk-xk-Zxe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
