@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         octagon?.animateOctagon(duration: 3)
     }
     
+    @IBAction func backAction(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 
   
 

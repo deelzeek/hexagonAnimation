@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C693D81E79E07600C033E7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C693D71E79E07600C033E7 /* StartViewController.swift */; };
 		16EDBAAF1E788C4900A7985F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDBAAE1E788C4900A7985F /* AppDelegate.swift */; };
 		16EDBAB11E788C4900A7985F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDBAB01E788C4900A7985F /* ViewController.swift */; };
 		16EDBAB41E788C4900A7985F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EDBAB21E788C4900A7985F /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16C693D71E79E07600C033E7 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		16EDBAAB1E788C4900A7985F /* Octagonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octagonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EDBAAE1E788C4900A7985F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16EDBAB01E788C4900A7985F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				16EDBAB51E788C4900A7985F /* Assets.xcassets */,
 				16EDBAB71E788C4900A7985F /* LaunchScreen.storyboard */,
 				16EDBABA1E788C4900A7985F /* Info.plist */,
+				16C693D71E79E07600C033E7 /* StartViewController.swift */,
 			);
 			path = Octagonic;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16EDBAB11E788C4900A7985F /* ViewController.swift in Sources */,
+				16C693D81E79E07600C033E7 /* StartViewController.swift in Sources */,
 				16EDBAD31E792EDC00A7985F /* Octagonic.swift in Sources */,
 				16EDBAAF1E788C4900A7985F /* AppDelegate.swift in Sources */,
 			);
